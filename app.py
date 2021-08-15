@@ -50,7 +50,6 @@ while counter == 1:
                 #df.append(dict, ignore_index = True)
                 counter += 1
                 for x in range(len(jobList)):
-
-                    print(dict['customer']+ ": " + dict["job"][x]+ ": " +dict["work"][x] )
+                    print(dict['customer']+ ": " + dict["job"][x]+ ": " + dict["work"][x] )
             else:
                 counter = 1
