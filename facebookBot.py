@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 PAGE_ACCESS_TOKEN = "EAAMkZBZCiLpCABABXGgrsATop8I3X8gGc08R0XTOEsAB8CNkFkZBhDAdLAT7oGYGuZAKOc61EVKJB2JW88v3mfNFHhHnZBEjJVuvog7GhLcr5JZCUPqV3QOCPZBVtPO9iY0X02ns43r5rQ60IXIxiUyydZCWmRIa5damKwpBLzObRfJeegdLOjbo"
 FB_API_URL = "https://graph.facebook.com/v11.0/me/messages?access_token=<PAGE_ACCESS_TOKEN>""
-VERITY_TOKEN = "justDoIt"
+VERITY_TOKEN = "20506974"
 
 
 def get_bot_response(message):
@@ -51,4 +51,4 @@ def listen():
                 sender_id = x['sender']['id']
                 respond(sender_id, text)
 
-        return "ok"
+        return "connection successfully established"
